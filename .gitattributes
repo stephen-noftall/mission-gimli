@@ -1,0 +1,27 @@
+* text=auto
+
+# Unity YAML - merge as text
+*.unity    text merge=unityyamlmerge eol=lf
+*.prefab   text merge=unityyamlmerge eol=lf
+*.asset    text merge=unityyamlmerge eol=lf
+*.mat      text merge=unityyamlmerge eol=lf
+*.anim     text merge=unityyamlmerge eol=lf
+*.controller text merge=unityyamlmerge eol=lf
+*.meta     text eol=lf
+
+*.cs       text diff=csharp
+*.asmdef   text
+*.shader   text
+
+# Binary assets
+*.png binary
+*.jpg binary
+*.psd binary
+*.tga binary
+*.fbx binary
+*.blend binary
+*.wav binary
+*.mp3 binary
+*.ogg binary
+*.ttf binary
+*.otf binary

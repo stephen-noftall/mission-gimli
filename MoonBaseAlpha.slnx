@@ -1,0 +1,5 @@
+﻿<Solution>
+  <Project Path="MoonBaseAlpha.Runtime.csproj" />
+  <Project Path="MoonBaseAlpha.Editor.csproj" />
+  <Project Path="MoonBaseAlpha.Tests.PlayMode.csproj" />
+</Solution>
